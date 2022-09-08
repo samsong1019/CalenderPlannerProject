@@ -39,6 +39,9 @@ function PPFClassAdder() {
 }
 PPFClassAdder();
 // add attribute based on classes past present and future
+// red for past cause past is past leave it behind
+// blue is present because its neutral kinda ig idk
+// future is green because green = win and aim to win
 $(".past").css("background-color", "#FF345C");
 $(".present").css("background-color", "skyblue");
 $(".future").css("background-color", "#25F31F");
